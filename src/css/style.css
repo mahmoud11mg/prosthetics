@@ -82,3 +82,24 @@ body{
 
 
 }
+
+.dark {
+ 
+
+    text-align: center;
+  color: #1B3F4C !important;
+  width: 50%;
+ 
+  font-size: 1em;
+  line-height: inherit;
+  float: right;
+  background:#EDEDED;
+  border-radius:10px ;
+  -webkit-border-radius:10px ;
+  -moz-border-radius:10px ;
+  -ms-border-radius:10px ;
+  -o-border-radius:10px ;
+}
+.ddark{
+  background:#EDEDED;
+}
