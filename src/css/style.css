@@ -255,6 +255,7 @@ tr {
   moz-background-size: 100%;
   o-background-size: 100%;
   background-size: 100%;
+
 }
 .about {
   background: url('..//img/about.jpg') no-repeat center center fixed;
@@ -263,6 +264,7 @@ tr {
   moz-background-size: 100%;
   o-background-size: 100%;
   background-size: 100%;
+  
 }
 .index-bor{
   border-radius: 20px;
@@ -271,18 +273,11 @@ tr {
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
 }
-.team {
-  background: url('..//img/-teamwork.jpg') no-repeat center center fixed;
-  min-height: 490px;
-  webkit-background-size: 100%;
-  moz-background-size: 100%;
-  o-background-size: 100%;
-  background-size: 100%;
-}
+
 .fields {
-  background: rgba(9, 9, 9, 0.46);
+  background: rgba(0, 0, 0, 0.588);
   min-height: 490px;
   padding-top: 40px;
   padding-bottom: 40px;
-  color: #DDD;
+  color: #ffffff;
 }
