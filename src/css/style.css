@@ -30,6 +30,36 @@ body {
 	transform: translateX(24px);
 }
 
+/* nav */
+ .dropdown-menu >li>a {
+  color: rgb(108, 3, 255);
+  padding: 6px 20px;
+  filter: alpha(opacity=70);
+  -webkit-transition: all 0.9s ease-in-out;
+  -moz-transition: all 0.9s ease-in-out;
+  -o-transition: all 0.9s  ease-in-out;
+  transition: all 0.9s  ease-in-out;
+}
+
+ .navbar .navbar-nav  .active  a,
+  .navbar .navbar-nav .active  a:hover,
+   .navbar .navbar-nav  .active  a:focus 
+   {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 10px;
+    color: rgb(32, 10, 131);
+    border-bottom: 3px solid;
+}
+ .navbar .navbar-nav > li > a {
+  color: #000000;
+font-weight: bold;
+  font-size: 19px;
+}
+
+
+
+/* end nav */
 
 
 
@@ -44,20 +74,7 @@ body {
 	
 }
 /* dark mood */
-.navbar-toggler {
-  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
-  font-size: var(--bs-navbar-toggler-font-size);
-  line-height: 1;
-  color: var(--bs-navbar-color);
-  background-color: transparent;
-  border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
-  border-radius: var(--bs-navbar-toggler-border-radius);
-  transition: var(--bs-navbar-toggler-transition);
-  float: right;
-  /* display: inline-block; */
-  top: 100px;
-  margin-top: -40px;
-}
+
 .end {
   margin: auto;
 }
@@ -228,4 +245,44 @@ body {
 }
 tr {
   line-height: normal;
+}
+
+.welcome {
+  background: url('..//img/welcom.png') no-repeat center center fixed;
+  background: url('..//img/normal_u32.png') no-repeat center center fixed;
+  min-height: 490px;
+  webkit-background-size: 100%;
+  moz-background-size: 100%;
+  o-background-size: 100%;
+  background-size: 100%;
+}
+.about {
+  background: url('..//img/about.jpg') no-repeat center center fixed;
+  min-height: 490px;
+  webkit-background-size: 100%;
+  moz-background-size: 100%;
+  o-background-size: 100%;
+  background-size: 100%;
+}
+.index-bor{
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.team {
+  background: url('..//img/-teamwork.jpg') no-repeat center center fixed;
+  min-height: 490px;
+  webkit-background-size: 100%;
+  moz-background-size: 100%;
+  o-background-size: 100%;
+  background-size: 100%;
+}
+.fields {
+  background: rgba(9, 9, 9, 0.46);
+  min-height: 490px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #DDD;
 }
